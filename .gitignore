@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Test files
+test-*.js
+test-*.cjs
+test-*.mjs
+test-*.py
+*-test.html
+qr-test.html
+
+# Test artifacts (screenshots already committed)
+# test-artifacts/
+
+# Package manager files (single-file app, no deps needed)
+package.json
+package-lock.json
+
+# Claude Code local config
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
